@@ -89,68 +89,68 @@ case-insensitive logic
 
 tests.js includes :
 
-Testing Approach
+- Testing Approach
 
 Instead of using Jest or Mocha, this project uses custom test helper functions:
 
-test() – checks returned values
+- test() – checks returned values
 
-testError() – checks thrown errors
+- testError() – checks thrown errors
 
 Each function has its own test block.
 
 Functions Overview
-1️⃣ shorten(word)
+### 1️⃣ shorten(word)
 
-Removes all vowels (a e i o u, case-insensitive) from a string.
-
-Examples:
-
-twitter → twttr
-
-AEIOU → ""
-
-2️⃣ value(word)
-
-Calculates score based on specific letter rules.
+- Removes all vowels (a e i o u, case-insensitive) from a string.
 
 Examples:
 
-hello → 0
+- twitter → twttr
 
-hola → 20
+- AEIOU → ""
 
-bonjorno → 100
+### 2️⃣ value(word)
 
-3️⃣ isValid(username)
+- Calculates score based on specific letter rules.
+
+Examples:
+
+- hello → 0
+
+- hola → 20
+
+- bonjorno → 100
+
+### 3️⃣ isValid(username)
 
 Validates a username with rules such as:
 
-Must contain letters
+- Must contain letters
 
-Numbers allowed only at the end
+- Numbers allowed only at the end
 
-No special characters
+- No special characters
 
-Cannot start with numbers
+- Cannot start with numbers
 
 Examples:
 
-aks97 → true
+- aks97 → true
 
-david10 → false
+- david10 → false
 
-4️⃣ convert(fraction)
+### 4️⃣ convert(fraction)
 
-Converts a fraction string (X/Y) into a percentage.
+- Converts a fraction string (X/Y) into a percentage.
 
 Error handling:
 
-Invalid format (3/9/5)
+- Invalid format (3/9/5)
 
-Non-integers (1.5/3)
+- Non-integers (1.5/3)
 
-Division by zero (3/0)
+- Division by zero (3/0)
 
 X > Y (9/3)
 
@@ -158,11 +158,11 @@ X > Y (9/3)
 
 Returns fuel gauge representation:
 
-<= 1 → E
+- <= 1 → E
 
->= 99 → F
+- >= 99 → F
 
-Otherwise → "XX%"
+- Otherwise → "XX%"
  
 
 ## 🚀 Run the project / გაშვება
