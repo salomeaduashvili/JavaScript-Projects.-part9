@@ -154,7 +154,7 @@ Error handling:
 
 X > Y (9/3)
 
-###5️⃣ gauge(percent)
+### 5️⃣ gauge(percent)
 
 Returns fuel gauge representation:
 
@@ -169,10 +169,10 @@ Returns fuel gauge representation:
 
 1. Install Node.js
 2. Install **prompt-sync** 
-   ```bash
-   npm install prompt-sync
-   ```
-4. Install dependencies:
+```bash
+npm install prompt-sync
+```
+3. Install dependencies:
 ```bash
 npm install figlet
 ```
